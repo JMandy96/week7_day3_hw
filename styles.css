@@ -1,0 +1,199 @@
+.cardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.fire-card {
+    background-color: orangered !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+
+.water-card {
+    background-color:dodgerblue !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+
+.grass-card {
+    background-color: green !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+
+.normal-card {
+    background-color: grey !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.fighting-card{
+    background-color: maroon !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.flying-card{
+    background-color: plum !important;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.poison-card{
+    background-color:blueviolet !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.ground-card{
+    background-color: tan !important;
+    color:black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.rock-card{
+    background-color:peru !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.bug-card{
+    background-color: darkolivegreen !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.ghost-card{
+    background-color: indigo !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.steel-card{
+    background-color: silver !important;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.electric-card{
+    background-color: yellow !important;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.psychic-card{
+    background-color:darkmagenta !important;
+    color: white !important;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.ice-card{
+    background-color:aqua !important;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.dragon-card{
+    background-color: purple !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.dark-card{
+    background-color: darkslategrey !important;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.fairy-card{
+    background-color: hotpink !important;
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    margin-top: 1vh;
+}
+.card:hover{
+    position: relative; 
+    top: -10px;
+    transition: 2s;
+}
